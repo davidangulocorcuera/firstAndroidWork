@@ -13,7 +13,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class UserInterface extends AppCompatActivity {
-
+// we used butter knife for take the data from the xml
     @BindView(R.id.editText_name)
     EditText et_name;
     @BindView(R.id.editText_firstSurname)
@@ -36,18 +36,19 @@ public class UserInterface extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_interface);
         ButterKnife.bind(this);
+
+        /*
         String str_name = et_name.getText().toString();
         String str_firstSurname = et_firstSurname.getText().toString();
         String str_secondSurname = et_secondSurname.getText().toString();
         String str_postalCode = et_postalCode.getText().toString();
-        //til_city =(TextInputLayout) til_city.findViewById(R.id.textInputLayout_city);
-        /*if(showPostalCodeAndCity(str_name,str_firstSurname)){
-            til_city.setVisibility(View.VISIBLE);
-        }*/
+        */
+
         switch_hide =  (Switch) findViewById(R.id.switch_hide);
         textView_description  = findViewById(R.id.textView_description);
         bl_switchState = switch_hide.isChecked();
     }
+    //function for show the user description when you click on the switch button
     public void showDescription(View view) {
         if(!(switch_hide.isChecked())){
             textView_description.setVisibility(View.INVISIBLE);
@@ -56,6 +57,7 @@ public class UserInterface extends AppCompatActivity {
             textView_description.setVisibility(View.VISIBLE);
         }
     }
+    //with this function we show the pop up when you click the show button
     public void showPopUp(View view) {
         Toast toast = new Toast(this);
         toast.setGravity(5, 6, 6);
@@ -65,7 +67,7 @@ public class UserInterface extends AppCompatActivity {
 
     }
 
-
+    //function for show the pc and the city when user write some in the others textboxes (don´t works)
     public boolean showPostalCodeAndCity(String str_name, String str_surname) {
         if (str_name.equals("") && str_surname.equals("")) {
             return false;
