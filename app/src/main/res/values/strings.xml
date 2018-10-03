@@ -2,12 +2,12 @@
     <string name="app_name">UserInterface</string>
     <string name="str_description">Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy detallista
         y autodidacta cada día, nunca dejo de aprender y tengo un especial don de gentes.</string>
-    <string name="str_hideDescription">Hide description</string>
+    <string name="str_hideDescription">Show description</string>
     <string name="str_name">Name</string>
     <string name="str_firstSurname">1st Surname</string>
     <string name="str_secondSurname">2nd Surname</string>
     <string name="str_postalCode">PC</string>
     <string name="str_city">City</string>
-    <string name="str_hide">Hide</string>
+    <string name="str_hide">Show data</string>
 
 </resources>
