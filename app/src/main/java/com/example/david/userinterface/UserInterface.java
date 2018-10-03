@@ -61,9 +61,9 @@ public class UserInterface extends AppCompatActivity {
     public void showPopUp(View view) {
         Toast toast = new Toast(this);
         toast.setGravity(5, 6, 6);
-        Toast.makeText(this, "name: \n" + et_name.getText().toString() + " first surname: \n" +
-                et_firstSurname.getText().toString() + "second surname \n" + et_secondSurname.getText().toString() + " postal code: \n" + et_postalCode.getText().toString()
-                + " ciudad: \n" + et_city.getText().toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "\n Name: " + et_name.getText().toString() + "\n First surname: " +
+                et_firstSurname.getText().toString() + "\n Second surname: " + et_secondSurname.getText().toString() + "\n Postal code: " + et_postalCode.getText().toString()
+                + "\n Ciudad: " + et_city.getText().toString(), Toast.LENGTH_SHORT).show();
 
     }
 

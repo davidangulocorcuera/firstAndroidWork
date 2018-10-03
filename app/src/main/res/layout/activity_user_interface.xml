@@ -115,7 +115,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textInputLayout_postalCode"
                     app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
                     app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
-                    app:layout_constraintVertical_bias="1.0">
+                    app:layout_constraintVertical_bias="0.0">
                 <EditText
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
 
             <Button
 
-                    android:layout_width="128dp"
+                    android:layout_width="217dp"
                     android:layout_height="56dp"
                     android:text="@string/str_hide"
 
@@ -136,9 +136,11 @@
                     android:onClick="showPopUp"
                     android:background="@drawable/button_selector"
                     android:textColor="@color/colorWhite"
-                    android:gravity="center" app:layout_constraintStart_toEndOf="@+id/textInputLayout_city"
-                    android:layout_marginStart="44dp" android:layout_marginTop="44dp"
-                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout_secondSurname"/>
+                    android:gravity="center"
+                    android:layout_marginTop="168dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout_secondSurname"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
             <android.support.design.widget.TextInputLayout
                     android:layout_width="161dp"
                     android:layout_height="68dp"

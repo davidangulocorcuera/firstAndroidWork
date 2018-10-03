@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">UserInterface</string>
-    <string name="str_description">Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy detallista
-        y autodidacta cada día, nunca dejo de aprender y tengo un especial don de gentes.</string>
+    <string name="str_description">Hijo, si de verdad quieres algo en esta vida,
+        vas a tener que trabajar por ello. Ahora cállate, van a dar los números de la lotería. – Homer Simpson</string>
     <string name="str_hideDescription">Show description</string>
     <string name="str_name">Name</string>
     <string name="str_firstSurname">1st Surname</string>
