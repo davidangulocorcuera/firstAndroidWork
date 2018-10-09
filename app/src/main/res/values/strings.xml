@@ -9,5 +9,7 @@
     <string name="str_postalCode">PC</string>
     <string name="str_city">City</string>
     <string name="str_hide">Show data</string>
+    <string name="edit_description">Edit Description</string>
+    <string name="ok">Ok</string>
 
 </resources>
